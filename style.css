@@ -1,0 +1,211 @@
+
+
+
+
+.navbar{
+    background: linear-gradient(0.15turn,rgb(15, 13, 13),rgb(15, 13, 13),rgb(73, 73, 73),rgb(53, 52, 52),rgb(15, 13, 13));
+}
+.nav-link{
+    font-size:20px;
+    color:whitesmoke;
+}
+video {
+    position: absolute;
+    left:0;
+    right:0;
+    width: 100%;
+    height: 500px;
+    z-index:-1;
+    opacity:1;
+}
+.jumbotron h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.jumbotron {
+    z-index:2;
+    margin-top:100px;
+    background: linear-gradient(0.15turn,rgb(44, 132, 247), #326981, #bbf88d,rgba(255, 255, 0, 0.836), #fd8d15,red);
+  
+
+    font-size:20px;
+    padding-bottom: 30px;
+    padding-left:200px;
+    padding-right:200px;
+    margin-bottom: 30px;
+    height: 630px;
+    /*margin-left:80px;
+    margin-right:100px;*/
+    overflow: hidden;
+    position: relative;
+    
+}
+#header .lead{
+    color:white;
+    z-index:4;
+    font-size:40px;
+    font-family:'Josefin Sans', sans-serif;
+}
+#header .my-4 p{
+    font-size:20px;
+    color:white;
+}
+#header h1{
+    color:white;
+    z-index:4;
+    font-size:30px;
+    font-family: 'Bangers', cursive;
+}
+#about-me .container{
+   text-align:center;
+
+
+}
+#about-me h1{
+    text-align:center;
+    font-size:40px;
+    font-family: 'Sriracha', cursive;
+    color:black;
+}
+#about-me .new{
+    font-family: 'Kalam', cursive;
+    font-size:30px;
+}
+#about-me img{
+    box-shadow: 0 4px 8px 0 rgba(250, 94, 211, 0.2), 0 6px 20px 0 rgba(168, 105, 250, 0.19);
+    border-radius:30px;
+}
+#project{
+    background: linear-gradient(0.15turn,rgb(104, 4, 150), #7e45b4,rgba(17, 120, 255, 0.836), #11c6fd);
+}
+#project h1{
+    text-align:center;
+    font-size:40px;
+    font-family: 'Sriracha', cursive;
+    color:black;
+}
+#project h2{
+    font-family: 'Arvo', serif;
+    font-size:25px;
+    text-align:center;
+    
+}
+#project .new{
+    font-family: 'Arvo', serif;
+    font-size:25px;
+    text-align:center;   
+}
+#project .card-img-top{
+    border-radius:20px;
+    background-color:white;
+}
+#project .col-md-4{
+    border-radius:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:white;
+}
+#language .container{
+    background: linear-gradient(0.15turn,rgb(190, 49, 49),rgba(253, 170, 16, 0.932), rgba(248, 198, 132, 0.836),#fcd554,rgb(190, 49, 49));    
+}
+#language h1{
+    text-align:center;
+    font-family: 'Sriracha', cursive;
+}
+#language h2{
+    text-align:center;
+    font-family: 'Cairo', sans-serif;
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    border-radius:30px;
+  }
+  
+.flip-card-inner {
+position: relative;
+width: 100%;
+height: 100%;
+text-align: center;
+transition: transform 0.8s;
+transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+position: absolute;
+width: 100%;
+height: 100%;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+.flip-card-front img{
+border-radius: 20px;
+}
+
+.flip-card-front {
+color: black;
+}
+
+
+.flip-card-back {
+background-color: rgb(247, 247, 146);
+color: black;
+transform: rotateY(180deg);
+border-radius: 20px;
+}
+#hobbies{
+    margin-top:200px;
+
+}
+#hobbies h1{
+    text-align:center;
+    font-family: 'Sriracha', cursive;
+}
+#hobbies img{
+    width:200px;
+    height:500px;
+}
+#hobbies h5{
+    font-family: 'Kalam', cursive;
+    font-size:40px;
+}
+
+#contact-form{
+    margin-top:100px;
+    margin-left:150px;
+    margin-right:150px;
+    border:5px double black;
+}
+#contact-form h4{
+    font-family: 'Kalam', cursive;
+    text-align:center;
+    font-size:30px;
+}
+#contact-form form{
+    margin-left:200px;
+    margin-right:200px;
+}
+#contact-form .btn {
+    margin-left:200px;
+}
+#contact-form .form-control{
+    border: 2px solid yellowgreen;
+    border-radius:10px;
+}
+#contact-form .container h4{
+    text-align: center;
+    background-color: rgb(255, 154, 154);
+    margin-bottom:20px;
+    border-radius: 10px;
+    height:70px;
+    margin-left:200px;
+    margin-right:200px;
+    height:80px;
+}
+#footer h1,p{
+    text-align: center;
+}
